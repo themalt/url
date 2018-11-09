@@ -1,12 +1,18 @@
 {
-    "name": "themalt/url",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Łukasz Barcikowski",
-            "email": "lukasz.b@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "themalt/url",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Łukasz Barcikowski",
+      "email": "lukasz.b@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "phpunit/phpunit": "^7",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {"Malt\\": "src/"}
+  }
 }
