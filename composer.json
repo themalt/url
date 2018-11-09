@@ -7,5 +7,6 @@
             "email": "lukasz.b@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
