@@ -1,0 +1,11 @@
+{
+    "name": "themalt/url",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Łukasz Barcikowski",
+            "email": "lukasz.b@gmail.com"
+        }
+    ],
+    "require": {}
+}
